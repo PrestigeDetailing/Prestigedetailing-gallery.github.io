@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* font-family: 'Bebas Neue', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+}
+
+.header {
+    background-image: url(images/carss.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    height: 60px;
+    width: 120px;
+    margin-left: 30px;
+    margin-top: 0px; 
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #d82e37;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 25px 0;
+    border: 0;
+    margin-right: 20px;
+}
+
+.btn-1:hover {
+    background-color: #b4272e;
+}
+
+.individual {
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    
+}
+
+.ima {
+    width: 48%;
+}
+
+.foot {
+    color: #ffffff;
+}
+
+
+.footer-txt {
+    text-align: center;
+    padding: 10px;
+    background-color: #070707;
+    color: #ffffff;
+}
+
+.qqqq a {
+    color: #ffffff;
+}
+
+.footer-txt a {
+    color: #ffffff;
+} 
+
+@media(max-width:991px) {
+    .header {
+        min-height: 10vh;
+    }
+
+    .foot {
+        color: #ffffff;
+    }
+
+    .footer-txt a {
+        color: #ffffff;
+    } 
+
+    .qqqq a {
+        color: #ffffff;
+    }
+
+}
